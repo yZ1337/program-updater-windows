@@ -2,7 +2,7 @@
 title Run/Python checker
 python --version 2>NUL
 if errorlevel 1 goto errorNoPython
-start update.py
+start main.py
 exit
 
 goto :EOF
