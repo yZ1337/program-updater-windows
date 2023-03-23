@@ -1,6 +1,6 @@
-# Python script to update any available updates for all your programs on Windows 10/11
+# Program updater Windows 10/11
 
-Simple script to check and update any necessary updates on your Windows system.
+Simple python script to update any available updates for all your programs on Windows 10/11.
 
 Feel free to use, but when using it for your own projects please link this Github page!
 
@@ -18,7 +18,7 @@ If not installed, install it using the link below:
 
 ## How to run
 
-Run the script using the run.bat file.
+Run the script using the `run.bat` file.
 
 
 ## Developers and maintainers
