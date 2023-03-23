@@ -32,7 +32,7 @@ def main():
 def start():
     os.system('cls')
     print("----------------------------------")
-    print('{:^30s}'.format("Easy Windows Tool 1.3.1"))
+    print('{:^30s}'.format("Simple Windows Python Tool 1.3.1"))
     print('{:^30s}'.format("Made by: oVeXz"))
     print("----------------------------------")
     print()
