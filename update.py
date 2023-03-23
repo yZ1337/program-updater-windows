@@ -3,7 +3,7 @@ import os
 __author__ = "(c) oVeXz 2023"
 
 print("----------------------------------")
-print('{:^30s}'.format("Updater 1.0"))
+print('{:^30s}'.format("Updater 1.1"))
 print('{:^30s}'.format("Made by: oVeXz"))
 print("----------------------------------")
 print()
@@ -27,7 +27,7 @@ def checkUpdatesPackages():
     os.system('cls')
     print('Getting upgradable applications...')
     os.system('color a')
-    os.system('cmd /c "winget upgrade &"')
+    os.system('cmd /c "winget upgrade --include-unknown &"')
     print()
     os.system('cmd /c "color a & echo Done!"')
     print()
