@@ -1,38 +1,13 @@
 import os
-import sys
-import pyuac
 import importlib
 
 __author__ = "(c) oVeXz 2023"
 
-
-def main():
-    print('------ Checking for libraries ------')
-    # Check for pyuac library
-    try:
-        importlib.import_module('pyuac')
-        print('pyuac is already installed')
-    except ImportError:
-        print('pyuac is not installed. Installing now...')
-        import subprocess
-        subprocess.check_call(['pip', 'install', 'pyuac'])
-
-    # Check for pypiwin32 library
-    try:
-        importlib.import_module('win32com.client')
-        print('pypiwin32 is already installed')
-        start()
-    except ImportError:
-        print('pypiwin32 is not installed. Installing now...')
-        import subprocess
-        subprocess.check_call(['pip', 'install', 'pypiwin32'])
-        start()
-
 # Input field
-def start():
+def main():
     os.system('cls')
     print("----------------------------------")
-    print('{:^30s}'.format("Simple Windows Python Tool 1.3.1"))
+    print('{:^30s}'.format("Simple Windows Python Tool 1.4"))
     print('{:^30s}'.format("Made by: oVeXz"))
     print("----------------------------------")
     print()
@@ -55,7 +30,7 @@ def start():
 
     # Exits after 'exit' argument given
     elif resultInput == "exit":
-        raise SystemExit
+        main()
 
 ### CHECKS UPGRADABLE WINDOWS PACKAGES ###
 def checkUpdatesPackages():
@@ -80,11 +55,11 @@ def checkUpdatesPackages():
         print("Go back? [y/n]")
         goBackYesNo = input("Type: ")
         if goBackYesNo.strip() == "y":
-            start()
+            main()
         else:
             raise SystemExit
     elif updateYesNo.strip() == "n":
-        start()
+        main()
     else:
         raise SystemExit
 
@@ -100,7 +75,7 @@ def upgradePackages ():
     print()
     goBackYesNo = input("Go back? [y/n]")
     if goBackYesNo.strip() == "y":
-        start()
+        main()
     else:
         raise SystemExit
 
