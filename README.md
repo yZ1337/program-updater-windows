@@ -4,8 +4,6 @@ Simple python script to update any available updates for all your programs on Wi
 
 Feel free to use, but when using it for your own projects please link this Github page!
 
-Created by: [oVeXz](https://github.com/oVeXz)
-
 
 ## Documentation
 
