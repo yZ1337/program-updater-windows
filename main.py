@@ -7,7 +7,7 @@ __author__ = "(c) oVeXz 2023"
 def main():
     os.system('cls')
     print("----------------------------------")
-    print('{:^30s}'.format("Simple Windows Python Tool 1.4"))
+    print('{:^30s}'.format("Simple Windows Python Tool 1.4.1"))
     print('{:^30s}'.format("Made by: oVeXz"))
     print("----------------------------------")
     print()
@@ -30,6 +30,9 @@ def main():
 
     # Exits after 'exit' argument given
     elif resultInput == "exit":
+        raise(exit)
+
+    else:
         main()
 
 ### CHECKS UPGRADABLE WINDOWS PACKAGES ###
