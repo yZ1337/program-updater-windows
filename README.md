@@ -1,4 +1,4 @@
-# Easy Windows Tool
+# Easy Windows Python Tool
 
 Simple python script to update any available updates for all your programs on Windows 10/11.
 
