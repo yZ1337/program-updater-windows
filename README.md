@@ -21,6 +21,8 @@ Run the script using the `run.bat` file.
 ## To Do List:
 
 - [ ]  Create registry problem check
+- [ ]  Add disk problem scanner
+- [ ]  Add any other Windows problems scanner
 
 
 ## Developers and maintainers
