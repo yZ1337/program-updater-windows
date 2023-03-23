@@ -29,7 +29,7 @@ Install pypiwin32 manually:
 ```
 python3 -m pip install pypiwin32
 ```
-
+Both libraries also get installed via this script. If not installed yet.
 
 ## How to run
 
