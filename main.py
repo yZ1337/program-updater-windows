@@ -32,7 +32,7 @@ def main():
 def start():
     os.system('cls')
     print("----------------------------------")
-    print('{:^30s}'.format("Updater 1.3"))
+    print('{:^30s}'.format("Easy Windows Tool 1.3.1"))
     print('{:^30s}'.format("Made by: oVeXz"))
     print("----------------------------------")
     print()
@@ -47,7 +47,15 @@ def start():
     os.system('color a')
     print("Enter option number: ")
     resultInput = input("Type: ")
-    return resultInput
+    if resultInput == "1":
+        checkUpdatesPackages()
+
+    elif resultInput == "2":
+        upgradePackages()
+
+    # Exits after 'exit' argument given
+    elif resultInput == "exit":
+        raise SystemExit
 
 ### CHECKS UPGRADABLE WINDOWS PACKAGES ###
 def checkUpdatesPackages():
@@ -72,14 +80,13 @@ def checkUpdatesPackages():
         print("Go back? [y/n]")
         goBackYesNo = input("Type: ")
         if goBackYesNo.strip() == "y":
-            os.startfile('update.py')
+            start()
         else:
             raise SystemExit
     elif updateYesNo.strip() == "n":
-        os.startfile('update.py')
+        start()
     else:
         raise SystemExit
-
 
 ### UPGRADES ALL WINDOWS PACKAGES ###
 def upgradePackages ():
@@ -93,30 +100,10 @@ def upgradePackages ():
     print()
     goBackYesNo = input("Go back? [y/n]")
     if goBackYesNo.strip() == "y":
-        os.startfile('update.py')
+        start()
     else:
         raise SystemExit
 
 
-if main() == "1":
-    checkUpdatesPackages()
-
-elif main() == "2":
-    upgradePackages()
-
-# Exits after 'exit' argument given
-elif main() == "exit":
-    raise SystemExit
-
-# Restarts script if invalid argument given
-else:
-    print("Not valid option")
-    os.startfile("update.py")
-
-
 if __name__ == "__main__":
-    if not pyuac.isUserAdmin():
-        print("Re-launching as admin!")
-        pyuac.runAsAdmin()
-    else:        
-        main()  # Already an admin here.
+        main() 
