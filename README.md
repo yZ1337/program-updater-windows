@@ -19,16 +19,16 @@ If not installed, install it using the link below:
 - [pyuac](https://pypi.org/project/pyuac/)
 
 Install Pyuac manually:
-``
+```
 python3 -m pip install pyuac
-``
+```
 
 - [pypiwin32](https://pypi.org/project/pypiwin32//)
 
 Install pypiwin32 manually:
-``
+```
 python3 -m pip install pypiwin32
-``
+```
 
 
 ## How to run
