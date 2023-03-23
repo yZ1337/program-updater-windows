@@ -35,6 +35,10 @@ Both libraries also get installed via this script. If not installed yet.
 
 Run the script using the `run.bat` file.
 
+## To Do List:
+
+- [ ]  Create registry problem check
+
 
 ## Developers and maintainers
 
