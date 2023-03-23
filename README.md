@@ -14,7 +14,7 @@ If not installed, install it using the link below:
 - [Python](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
 
 
-# Libraries required:
+### Libraries required:
 
 - [pyuac](https://pypi.org/project/pyuac/)
 
