@@ -24,7 +24,3 @@ Run the script using the `run.bat` file.
 - [ ]  Add disk problem scanner
 - [ ]  Add any other Windows problems scanner
 
-
-## Developers and maintainers
-
-- [@oVeXz](https://github.com/oVeXz)
