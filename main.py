@@ -8,7 +8,7 @@ def main():
     os.system('cls')
     print("----------------------------------")
     print('{:^30s}'.format("Simple Windows Python Tool 1.4.1"))
-    print('{:^30s}'.format("Made by: oVeXz"))
+    print('{:^30s}'.format("Made by: yZ"))
     print("----------------------------------")
     print()
 
