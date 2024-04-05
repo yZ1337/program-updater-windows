@@ -1,7 +1,7 @@
 import os
 import importlib
 
-__author__ = "(c) oVeXz 2023"
+__author__ = "(c) yZ 2024"
 
 # Input field
 def main():
